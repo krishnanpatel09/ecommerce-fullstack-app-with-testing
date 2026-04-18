@@ -94,7 +94,7 @@
 <h3>Notes</h3> <ul> <li>Ensure backend is running before starting frontend</li> <li>Frontend uses proxy to connect to backend (localhost:8080)</li> </ul>
 
 <h2>▶️ Usage</h2> <ul> <li>Frontend: http://localhost:3000</li> <li>Backend: http://localhost:8080</li> <li>Register or login to access features</li> </ul>
-p
+
 <h2>📊 Performance & Insights</h2> <ul> <li>Layered architecture improves maintainability</li> <li>TDD reduces production bugs</li> <li>JWT ensures secure communication</li> <li>Agile improves delivery speed</li> </ul>
 <h2>📚 Key Learnings</h2> <ul> <li>Agile project execution using Jira</li> <li>Implementing TDD and BDD together</li> <li>Designing scalable backend APIs</li> <li>Building secure authentication systems</li> </ul>
 <h2>⚠️ Limitations</h2> <ul> <li>SQLite not suitable for large-scale deployment</li> <li>No real payment gateway integration</li> <li>Limited UI optimization</li> </ul>
