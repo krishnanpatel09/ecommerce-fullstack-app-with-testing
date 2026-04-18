@@ -10,7 +10,79 @@
 <h2>📂 Data Model</h2> <ul> <li>Users</li> <li>Products</li> <li>Carts and Cart Items</li> <li>Orders and Order Items</li> </ul> <p> Relational schema and ER design ensure data integrity and efficient queries. </p>
 <h2>🧰 Tech Stack</h2> <table> <tr><th>Layer</th><th>Technology</th></tr> <tr><td>Frontend</td><td>React, Context API, CSS</td></tr> <tr><td>Backend</td><td>Spring Boot, Spring Security</td></tr> <tr><td>Authentication</td><td>JWT</td></tr> <tr><td>Database</td><td>SQLite</td></tr> <tr><td>Testing</td><td>JUnit, Cucumber</td></tr> <tr><td>Build Tool</td><td>Maven</td></tr> <tr><td>Project Management</td><td>Jira (Agile)</td></tr> </table>
 <h2>📁 Project Structure</h2> 
-<pre> ecommerce-fullstack-app-with-testing/ ├── frontend/ │ ├── public/ │ │ ├── index.html │ │ ├── manifest.json │ │ └── Logo192.png │ │ │ ├── src/ │ │ ├── components/ │ │ │ ├── admin/ │ │ │ │ ├── AdminDashboard.js │ │ │ │ ├── ProductManagement.js │ │ │ │ └── UserManagement.js │ │ │ │ │ │ │ ├── auth/ │ │ │ │ ├── Login.js │ │ │ │ ├── Register.js │ │ │ │ └── ProtectedRoute.js │ │ │ │ │ │ │ ├── customer/ │ │ │ │ ├── ProductList.js │ │ │ │ ├── Cart.js │ │ │ │ ├── Checkout.js │ │ │ │ ├── OrderHistory.js │ │ │ │ └── Payment.js │ │ │ │ │ │ │ └── common/ │ │ │ ├── Home.js │ │ │ └── Navigation.js │ │ │ │ │ ├── context/ │ │ │ └── AuthContext.js │ │ │ │ │ ├── App.js │ │ └── index.js │ │ │ ├── package.json │ └── package-lock.json │ ├── src/ │ ├── main/ │ │ ├── java/com/TDD/Ecom/ │ │ │ ├── config/ │ │ │ ├── controller/ │ │ │ ├── dto/ │ │ │ ├── model/ │ │ │ ├── repository/ │ │ │ ├── security/ │ │ │ ├── service/ │ │ │ └── EcomApplication.java │ │ │ │ │ └── resources/ │ │ ├── application.properties │ │ ├── schema.sql │ │ ├── data.sql │ │ └── features/ │ │ │ └── test/ │ ├── java/ │ │ ├── service/ │ │ ├── stepDefinitions/ │ │ └── CucumberTestRunner.java │ │ │ └── resources/ │ └── features/ │ ├── .mvn/ ├── mvnw ├── mvnw.cmd ├── pom.xml ├── Ecom.db ├── .gitignore └── README.md </pre>
+Ecom9/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── Logo192.png
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── admin/
+│   │   │   │   ├── AdminDashboard.js
+│   │   │   │   ├── ProductManagement.js
+│   │   │   │   └── UserManagement.js
+│   │   │   │
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   ├── Register.js
+│   │   │   │   └── ProtectedRoute.js
+│   │   │   │
+│   │   │   ├── customer/
+│   │   │   │   ├── ProductList.js
+│   │   │   │   ├── Cart.js
+│   │   │   │   ├── Checkout.js
+│   │   │   │   ├── OrderHistory.js
+│   │   │   │   └── Payment.js
+│   │   │   │
+│   │   │   └── common/
+│   │   │       ├── Home.js
+│   │   │       └── Navigation.js
+│   │   │
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   ├── package.json
+│   └── package-lock.json
+│
+├── src/
+│   ├── main/
+│   │   ├── java/com/TDD/Ecom/
+│   │   │   ├── config/
+│   │   │   ├── controller/
+│   │   │   ├── dto/
+│   │   │   ├── model/
+│   │   │   ├── repository/
+│   │   │   ├── security/
+│   │   │   ├── service/
+│   │   │   └── EcomApplication.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── schema.sql
+│   │       ├── data.sql
+│   │       └── features/
+│   │
+│   └── test/
+│       ├── java/
+│       │   ├── service/
+│       │   ├── stepDefinitions/
+│       │   └── CucumberTestRunner.java
+│       │
+│       └── resources/
+│           └── features/
+│
+├── .mvn/
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── Ecom.db
+├── .gitignore
+└── README.md
 
 <h2>🛠️ Installation</h2> <h3>Prerequisites</h3> <ul> <li>Java 21+</li> <li>Maven</li> <li>Node.js (v16 or higher)</li> <li>npm</li> </ul>
 <h3>Backend Setup (Spring Boot)</h3> <pre> # Navigate to project root cd ecommerce-fullstack-app-with-testing # Run Spring Boot application ./mvnw spring-boot:run </pre> <p> Backend will start at: http://localhost:8080 </p>
