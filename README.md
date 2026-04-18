@@ -10,7 +10,7 @@
 <h2>📂 Data Model</h2> <ul> <li>Users</li> <li>Products</li> <li>Carts and Cart Items</li> <li>Orders and Order Items</li> </ul> <p> Relational schema and ER design ensure data integrity and efficient queries. </p>
 <h2>🧰 Tech Stack</h2> <table> <tr><th>Layer</th><th>Technology</th></tr> <tr><td>Frontend</td><td>React, Context API, CSS</td></tr> <tr><td>Backend</td><td>Spring Boot, Spring Security</td></tr> <tr><td>Authentication</td><td>JWT</td></tr> <tr><td>Database</td><td>SQLite</td></tr> <tr><td>Testing</td><td>JUnit, Cucumber</td></tr> <tr><td>Build Tool</td><td>Maven</td></tr> <tr><td>Project Management</td><td>Jira (Agile)</td></tr> </table>
 <h2>📁 Project Structure</h2> 
-Ecom9/
+ecommerce-fullstack-app-with-testing/
 ├── frontend/
 │   ├── public/
 │   │   ├── index.html
