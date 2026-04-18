@@ -100,4 +100,4 @@
 <h2>⚠️ Limitations</h2> <ul> <li>SQLite not suitable for large-scale deployment</li> <li>No real payment gateway integration</li> <li>Limited UI optimization</li> </ul>
 <h2>🔮 Future Work</h2> <ul> <li>Integrate real payment systems</li> <li>Use PostgreSQL or MySQL</li> <li>Add recommendation engine</li> <li>Improve UI/UX</li> </ul>
 <h2>💡 Why This Project Matters</h2> <p> This project demonstrates full stack development with industry practices. It shows the ability to build secure, testable, and scalable systems while following Agile workflows. </p>
-<h2>👤 Authors</h2> <ul> <li>Krishna Nikunjkumar Patel</li> <li>Hinal Dharmendrabhai Vasava</li> <li>Farnoush Kashanirad</li> </ul>
+<h2>👤 Authors</h2> <ul> <li>Krishna Nikunjkumar Patel</li> </ul>
